@@ -5,7 +5,7 @@ PROGRAM = chat_server
 
 # -----------------------------------------------------------------------------
 
-CFLAGS  = -std=gnu99 -Og -g -Wall -Wextra -Werror -Wfatal-errors -Wno-unused-parameter
+CFLAGS  = -std=gnu99 -O2 -g -Wall -Wextra -Werror -Wfatal-errors -Wno-unused-parameter
 CC      = gcc
 LD      = gcc
 
